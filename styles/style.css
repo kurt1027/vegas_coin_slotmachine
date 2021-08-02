@@ -82,7 +82,7 @@ a:hover{
 /*
  * Header
  */
-.header-line {
+/* .header-line {
   width: 100%;
   position: absolute;
   height: 10px;
@@ -99,7 +99,7 @@ header {
   color:#333;
   font-size: 25px;
   text-align: center;
-}
+} */
 
 header a {
   color: #6C5726;
@@ -156,9 +156,11 @@ header a {
  * SlotMachine
  */
 #randomize {
-  border-bottom: 10px solid rgb(72, 158, 48);
-  background-color: #EB6B56;
-  border-top: 20px dashed #B8312F;
+  border-bottom: 10px solid rgb(251 189 24);
+  /* background-color: #EB6B56; */
+  background-image: linear-gradient(black, rgb(251 189 24));
+  border-top: 20px solid black;
+  border-radius: 25px;
 }
 
 #randomize .row > div.col-sm-4 > div {
@@ -192,6 +194,7 @@ header a {
   margin-top: 30px;
   width: auto;
   margin-bottom: 15px;
+  color:#0F99CA;
 }
 
 .machineResult {

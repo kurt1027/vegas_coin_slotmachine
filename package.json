@@ -1,5 +1,5 @@
 {
-  "name": "jquery-slotmachine",
+  "name": "jquery-slotmachine-vegas",
   "version": "4.0.2",
   "engines": {
     "node": ">= 0.8.0"
@@ -15,7 +15,8 @@
     "url": "https://github.com/josex2r/jQuery-SlotMachine.git"
   },
   "dependencies": {
-    "jquery": ">=1.7"
+    "jquery": ">=1.7",
+    "jquery-slotmachine": "^4.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
